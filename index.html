@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>My Calculator</title>
+    <link href="CSS.css" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+
+   <div id="sidebar">
+
+<div class="hit">
+<!-- START OF HIT COUNTER CODE -->
+<h5>Page Views: </h5>
+<br><script language="JavaScript" src="http://www.counter160.com/js.js?img=11"></script>
+<br><a href="http://www.000webhost.com"><img src="http://www.counter160.com/images/11/left.png" alt="Free web hosting" border="0" align="texttop"></a>
+<a href="http://www.hosting24.com"><img alt="Web hosting" src="http://www.counter160.com/images/11/right.png" border="0" align="texttop"></a>
+</div>
+
+    <!--facebook like button--> 
+<div id="fb-root"></div>
+
+<div class="fb-like" data-href="http://www.humayun.comuf.com" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div></div>
+    <form name="myForm">
+        <h1>My Calculator</h1>
+        <table width="20%" align="center">
+            <thead>
+                <th colspan="4"><input type="text" id="text" readonly placeholder="0" name="textBox"/></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="button" class="btn-red" value="C" onclick='c("")'></td>
+                    <td><input type="button" class="btn-red" value="CE" onclick='b()'></td>
+                    <td><input type="button" class="btn-red" value="OFF" onclick='off()'></td>
+                    <td><input type="button" class="btn-red" value="ON" onclick='on()'></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn-black" value="7" onclick='v("7");'></td>
+                    <td><input type="button" class="btn-black" value="8" onclick='v("8")'></td>
+                    <td><input type="button" class="btn-black" value="9" onclick='v("9")'></td>
+                    <td><input type="button" class="btn-green" value="/" onclick='v(" / ")'></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn-black" value="4" onclick='v("4")'></td>
+                    <td><input type="button" class="btn-black" value="5" onclick='v("5")'></td>
+                    <td><input type="button" class="btn-black" value="6" onclick='v("6")'></td>
+                    <td><input type="button" class="btn-green" value="X" onclick='v(" * ")'></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn-black" value="1" onclick='v("1")'></td>
+                    <td><input type="button" class="btn-black" value="2" onclick='v("2")'></td>
+                    <td><input type="button" class="btn-black" value="3" onclick='v("3")'></td>
+                    <td><input type="button" class="btn-green" value="-" onclick='v(" - ")'></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn-green" value="." onclick='v(".")'></td>
+                    <td><input type="button" class="btn-black" value="0" onclick='v("0")'></td>
+                    <td><input type="button" class="btn-green" value="+" onclick='v(" + ")'></td>
+                    <td><input type="button" class="btn-red" value="=" onclick='e()'></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+</div>
+
+
+</body>
+</html>
